@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset=utf-8">
+        <style>
+            /* 방문표시(보안문제로 일부만 가능) */
+            a:visited{
+                color:red;
+            }
+            /* 링크 */
+            a:link{
+                color:black;
+            }
+            
+            /* 커서 위치시킨 상태 */
+            a:hover{
+                color:yellow;
+            }
+            /*가상선택자(클릭*/
+            a:active{
+                color:green;
+            }
+            /* 항목 선택시 적용 (탭키, 입력줄 선택 등) */
+            input:focus{
+                background-color:black;
+                color:white;
+            }            
+            
+            
+           
+            
+        </style>
+    </head>
+    <body>
+        <a href="https://opentutorials.org">방문함</a>
+        <a href="https://a.a">방문안함</a>
+        <input type="text">
+    </body>
+</html>

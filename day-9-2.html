@@ -1,0 +1,32 @@
+<!-- Media Query -->
+
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width,
+            initial-scale=1.0">
+            <style>
+                @media (max-width:700px){
+                   body{
+                        background-color:green;
+                        }
+                }
+                /* Cascading 순서 때문에 작은 범위가 나중에 나와야 중복을 피할수 있다 */
+                @media (max-width:600px){
+                    body{
+                        background-color:tomato;
+                    }
+                }
+                @media (min-width:701px){
+                    body{
+                        background-color:skyblue;
+                    }
+                }
+            </style>
+        </head>
+        <body>
+            > 600 px :tomato
+            601>  >700px:green
+            < 701px : blue
+        </body>
+    </html>

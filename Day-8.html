@@ -1,0 +1,87 @@
+<!-- Holi Grail Layout -->
+
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <style>
+                html{
+                    background-color:black;
+                }
+                body{
+                    display:flex;
+                    align-items: center;
+                    padding:5px;
+                    justify-content: center;
+                }
+                .container{
+                    display:flex;
+                    flex-direction:column;
+                    width:500px;
+                    border:1px solid gray;
+                }
+                header{
+                    border-bottom: 2px solid gray;
+                    text-align:center;
+                    color:beige;
+                    background-color:black;
+                }
+                footer{
+                    border-top:2px solid gray;
+                    padding:20px;
+                    text-align:center;
+                    background-color: white;
+                }
+                .content{
+                    display:flex;
+                    color:gold;
+                    
+                }
+                .content nav{
+                    border-right:1px solid gray;
+                }
+                .content aside{
+                    border-left:1px solid ivory;
+                    padding:10px;
+                }
+                nav,aside{
+                    flex-basis:150px;
+                    flex-shrink:0;
+                }
+                nav{
+                    order:-1;
+                }
+                main{
+                    padding:10px; 
+                }                            
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <header>
+                    <h1>라이언 T1</h1>
+                </header>
+                <section class="content">
+                    <main>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, distinctio! Ducimus perspiciatis corrupti culpa harum, cupiditate architecto consequuntur voluptatem assumenda est hic, quia debitis amet aperiam laboriosam dolor, molestias saepe?
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, minus explicabo! Exercitationem aperiam nam officiis velit magnam dolore, rem, beatae, et veniam repellendus sunt mollitia ducimus porro. Quisquam, commodi nostrum.
+                        </p>
+                    </main>
+                    <nav>
+                            <ul>
+                                <li>html</li>
+                                <li>css</li>
+                                <li>Javascript</li>
+                            </ul>
+                    </nav>
+                    <aside>
+                        [AD] Moutain Everest Moduler mechanical keyboard
+                    </aside>
+                </section>
+                <footer>
+                    <a href="https://opentutorials.org/course/1">Home Page</a>
+                </footer>
+            </div>
+        </body>
+    </html>

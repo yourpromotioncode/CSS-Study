@@ -1,0 +1,89 @@
+<!-- float - holy grail layout -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            *{
+                box-sizing:border-box; /* 보더 테두리 픽셀도 width에 포함*/
+            }
+            .container{
+                margin:auto;
+                width:490px;
+                border: 2px solid goldenrod;
+            }
+            header{
+                padding:10px;
+                border-bottom: 2px solid darkgoldenrod;
+            }
+            img{
+                
+                width:300px;
+                float:left;
+                margin:auto;
+            }
+            nav{
+                float:left;
+                width:100px;
+                border-right: 2px solid goldenrod;
+            }
+
+            article{
+                border-left:2px solid goldenrod;
+                border-right: 2px solid goldenrod;
+                float:left;
+                width:320px;
+                padding:5px;
+                margin-left:-2px;
+            }
+            aside{
+                padding: 5px;
+                border-left:2px solid goldenrod;
+                margin-left:-2px;
+                float:left;
+                width:70px;
+            }
+            footer{
+                clear:both;
+                border-top:2px solid darkgoldenrod;
+                text-align: center;
+                padding:20px;
+            }   
+        </style>    
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>
+                    CSS
+                </h1>
+            </header>
+
+            <nav>
+                <ul>
+                    <li>position</li>
+                    <li>float</li>
+                    <li>flex</li>
+                </ul>
+            </nav> 
+            <article>
+                <h2>
+                    float
+                </h2>
+                <img src="IMG_4425.jpeg" alt="">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam commodi et reiciendis tempore amet odio numquam rem similique ullam libero, eos eum ad voluptas asperiores cupiditate quibusdam incidunt deleniti voluptates?
+                페리는 라이언과 미야의 고양이로 매우 귀엽다고 전해졌습니다.
+            </article>
+            <aside>
+                AD
+            </aside>
+            <footer>
+                Copyleft
+            </footer>
+        </div>
+    </body>
+</html>
+    
+
+    
